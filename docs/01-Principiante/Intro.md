@@ -3,11 +3,12 @@
 
 ### ¿Qué es el malware?
 
-El malware es un tipo de software diseñado específicamente para realizar acciones maliciosas, como obtener acceso no autorizado a una máquina o robar datos confidenciales de una máquina. El término "malware" a menudo se asocia con conductas ilegales o delictivas, pero también puede ser utilizado por piratas informáticos éticos, como probadores de penetración y miembros del equipo rojo, para una evaluación de seguridad autorizada de una organización.
+El malware es un tipo de software diseñado específicamente para realizar acciones maliciosas, como obtener acceso no autorizado a una máquina o robar datos confidenciales de una máquina. El término "malware" a menudo se asocia con conductas ilegales o delictivas, pero también puede ser utilizado por piratas informáticos éticos, como pentesters y equipos de RedTeam, para una evaluación de seguridad autorizada de una organización.
 
 
 
 ### ¿Por qué aprender a desarrollar malware?
+
 Hay varias razones por las que alguien querría aprender a desarrollar malware. Desde una perspectiva de seguridad ofensiva, los evaluadores a menudo necesitarán realizar ciertas tareas maliciosas en el entorno de un cliente. Los evaluadores generalmente tienen tres opciones principales cuando se trata de los tipos de herramientas utilizadas en un compromiso:
 
 1. Herramientas de código abierto (OST): estas herramientas generalmente están firmadas por proveedores de seguridad y se detectan en cualquier organización madura o con una protección decente. No siempre son confiables cuando realizan una evaluación de seguridad ofensiva.
