@@ -1,0 +1,83 @@
+site_name: Notes with 🧉
+site_url: https://y3rb1t4.github.io/-notes/
+theme:
+  logo: assests/shaka.png
+  name: material
+  favicon: assests/shaka.png
+  # Icons
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+  # Features
+  features:
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.tabs.link
+    - content.footnote.tooltips
+    - content.tooltips
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.indexes
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.expand
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - search
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: black
+      accent: indigo 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+
+
+
+plugins:
+  - social
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/y3rb1t4
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/y3rb1t4
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/gaborosecurity/
+    - icon: simple/hackerone
+      link: https://hackerone.com/y3rb1t4
+
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/y3rb1t4"  target="_blank" rel="noopener"> y3rb1t4 </a>
